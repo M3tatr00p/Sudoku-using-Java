@@ -32,7 +32,7 @@ class Sudoku
             }
         }
  
-        // Corresponding square has
+        // Corresponding square 
         // unique number (box-clash)
         int sqrt = (int)Math.sqrt(board.length);
         int boxRowStart = row - row % sqrt;
